@@ -6,8 +6,9 @@ const app = express()
 //when should happen when the browser makes a GET request
 //location: '/'
 //callback function: what happens when the route gets visited
+//__dirname: the directory name no matter if the server is running locally or via a cloud
 app.get('/', function(req, res) {
-    res.send('<h1>Hello, world!</h1>')
+    res.sendFile(__dirname + '/index.html')//sending an html file to the browser
 })
 
 //listen on a specific port: 3000
