@@ -1,0 +1,23 @@
+{
+  "name": "express-playground",
+  "version": "1.0.0",
+  "description": "a playground for practicing the express framework",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7424243/express-playground.git"
+  },
+  "author": "Sam Sheets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7424243/express-playground/issues"
+  },
+  "homepage": "https://github.com/7424243/express-playground#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
